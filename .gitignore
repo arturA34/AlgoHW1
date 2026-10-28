@@ -1,0 +1,12 @@
+# IDE
+.idea/
+*.iml
+
+# Documents & reports
+*.pdf
+*.docx
+
+# Binaries & test artifacts
+*.exe
+*.test
+__debug_bin*
