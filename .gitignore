@@ -5,6 +5,7 @@
 # Documents & reports
 *.pdf
 *.docx
+*.png
 
 # Python temp files
 __pycache__/
