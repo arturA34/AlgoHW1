@@ -6,6 +6,10 @@
 *.pdf
 *.docx
 
+# Python temp files
+__pycache__/
+*.py
+
 # Binaries & test artifacts
 *.exe
 *.test
