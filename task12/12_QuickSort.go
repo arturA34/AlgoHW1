@@ -33,7 +33,11 @@ func main() {
 
 	quickSort(participants, 0, len(participants)-1)
 
-	fmt.Println(participants)
+	writer := bufio.NewWriter(os.Stdout)
+	for _, p := range participants {
+		fmt.Fprintln(writer, p.name)
+	}
+	writer.Flush()
 }
 
 func quickSort(participants []Participant, left int, right int) {
